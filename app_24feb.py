@@ -51,5 +51,5 @@ def main():
         result = prediction(classifier, Gender, Married, ApplicantIncome, LoanAmount, Credit_History) 
         st.success(f'Your loan is {result}')
 
-if _name_ == '_main_': 
+if __name__ == '_main_': 
     main()
